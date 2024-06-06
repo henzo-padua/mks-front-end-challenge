@@ -1,6 +1,3 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const H1 = styled.h1`
-  font-size: 50px;
-  font-weight: bold;
-`;
+export const Container = styled.main``;
