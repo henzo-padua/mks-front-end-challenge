@@ -26,7 +26,8 @@ export const ContainerWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3px;
+  padding: 0 15px;
+  margin-bottom: 10px;
 `;
 
 export const InfoWrapper = styled.div`
@@ -38,15 +39,14 @@ export const InfoWrapper = styled.div`
 
   h2 {
     color: #2c2c2c;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-left: 13px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
   }
 
   span {
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 14px;
     line-height: 15px;
     background: #373737;
     color: #fff;
@@ -61,7 +61,7 @@ export const Description = styled.div`
   line-height: 12px;
   align-self: flex-start;
   margin-left: 14px;
-  height: 25px;
+  height: 5px;
 `;
 
 export const Button = styled.button`
