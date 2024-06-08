@@ -1,14 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
+import { CartProductsProvider } from './contexts/selectedProduct';
 
-function App() {
+export function App() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path='/' element={<Home />} />
-            </Routes>
-        </BrowserRouter>
+        <CartProductsProvider>
+            <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<Home />} />
+                </Routes>
+            </BrowserRouter>
+        </CartProductsProvider>
     );
 }
-
-export default App;
